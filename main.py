@@ -49,7 +49,7 @@ def runbot():
         #Pastes link
         driver.find_element(By.XPATH,"/html/body/div[1]/div/div[2]/div[2]/div/div/div/div[2]/div[3]/div[1]/div[2]/div[3]/div[2]/div[2]/textarea").send_keys(link)
         #Submits post
-        driver.find_element(By.XPATH,"/html/body/div[1]/div/div[2]/div[2]/div/div/div/div[2]/div[3]/div[1]/div[2]/div[3]/div[3]/div[2]/div/div[1]/button").click()
+        driver.find_element(By.XPATH,"/html/body/div[1]/div/div[2]/div[2]/div/div/div/div[2]/div[3]/div[1]/div[2]/div[4]/div[3]/div[2]/div/div/div[1]/button").click()
         #Waits 3 seconds, then displays the URL of the post
         sleep(3)
         post_url = driver.current_url
